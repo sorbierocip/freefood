@@ -1,0 +1,7 @@
+Included Google Analitycs
+Using threads for scrape store data
+layout adjusts
+loading animation
+coupon list website - first version
+support webpage - not used yet
+commented buymeacoffe 
