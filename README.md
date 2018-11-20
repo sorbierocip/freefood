@@ -1,22 +1,21 @@
 # freefood
-Scraper for stores in ifood with minimum cost lower than promo codes
+AppEngine files for Free Food Locator 
 
 Pre-requisites:
-pip install requests
+pip install -r requirements.txt 
 
-pip install bs4
-
-pip install openpyxl
-
-
-
-To execute just issue: python ifood.py
-You will need to input (CEP, Street Number and promo code value).
-
-- Line 16 has fiddler settings to check HTTP requests
+deploy:
+gcloud app deploy
 
 
 Pending changes:
-- network error handling
-- user input handling
+- Include input mask
+- coupon test againts store website
+- for now coupons are static, change to be sotred on database, with user feedback thumbs up and down, and show coupons for the last 12 hours
+- include new coupons
+- check cpu/mem usage with threads
+- paralelize scrapper
+- use proxy?
+- 
+
 
